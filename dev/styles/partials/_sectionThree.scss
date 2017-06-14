@@ -1,0 +1,62 @@
+.sectionThree {
+	background-color: $turqSheer;
+}
+
+h4 {
+	font-family: $sansSerif;
+	font-size: 60px;
+	color: $blue;
+	text-shadow: 1px 1px 2px $magenta;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin: 2%;
+}
+
+.borderDiv {
+	margin: 2% 7% 0% 7%;
+	border: 3px solid $magenta;
+	height: 70%;
+	max-height: 70%;
+	background: rgba(255, 255, 255, 0.5);
+	column-count: 2;
+	column-fill: auto;
+	padding: .5%;
+}
+
+.sectionThree ul {
+	li {
+		font-family: $sansSerif;
+		font-size: 18px;
+		color: $blue;
+		button {
+			background-color: $magenta;
+			border: none;
+			border-radius: 5px;
+			padding: 5px;
+			width: 30px;
+			margin: 0;
+			margin-left: 10px;
+			i {
+				font-size: 20px;
+				color: $blue;
+				text-align: center;
+			}
+		}
+	}
+}
+
+.footer {
+	position: absolute;
+	p {
+		font-family: $sansSerif;
+		color: $blue;
+		position: relative;
+		bottom: -150px;
+		left: -1000px;
+		a {
+			text-decoration: none;
+			color: $lightBlue;
+		}
+	}
+}

@@ -1,0 +1,85 @@
+.sectionTwo {
+	background-color: $roseSheer;
+}
+
+.brandTitleDiv {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 5%;
+	p {
+		color: $blue;
+		font-size: 20px;
+		font-family: $sansSerif;
+		line-height: 200%;
+		text-align: center;
+		letter-spacing: .5px;
+		span {
+			color: $magenta;
+			font-size: 22px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.listHeaders {
+	border: 3px solid $magenta;
+	background: rgba(255, 255, 255, 0.5);
+	margin: 2% 15% 5% 15%;
+	padding: 5%;
+	p {
+		font-family: $sansSerif;
+		color: $lightBlue;
+		margin: 0;
+		padding: 1%;
+		font-size: 18px;
+		text-transform: capitalize;
+		text-align: center;
+		letter-spacing: 1px;
+	}
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+input[type=text] {
+	display: block;
+	width: 400px;
+	padding: 15px;
+	border: 2px solid $blue;
+	border-radius: 10px;
+	color: $lightBlue;
+	font-size: 18px;
+	text-align: center;
+	background-size: 40px;
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+input[type=file] {
+	// display: block;
+	// margin-left: 44%;
+}
+
+input[type=submit] {
+	font-family: $sansSerif;
+	font-size: 22px;
+	color: $blue;
+	text-align: center;
+	padding: 15px;
+	// margin: 0 0 0 50px;
+	background-color: $magenta;
+	border: none;
+	border-radius: 10px;
+	padding: 20px;
+	width: 220px;
+	transition-duration: 0.7s;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 60px;
+	margin-left: 36%;
+}
+
